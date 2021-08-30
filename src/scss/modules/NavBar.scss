@@ -1,0 +1,107 @@
+@use '../../../node_modules/@growstocks/stack/Core/Theme';
+@use '../../../node_modules/@growstocks/stack/Core/Color';
+@use '../../../node_modules/@growstocks/stack/Core/Shape';
+@use '../../../node_modules/@growstocks/stack/Core/Elevation';
+@use '../../../node_modules/@growstocks/stack/Core/Tools';
+
+@mixin render() {
+
+    .gtp-navbar__trigger {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 1rem;
+        margin-bottom: 3px;
+
+        button {
+            border: none;
+            color: var(--sc-theme--on-primary);
+            background: rgba(0 0 0 / 0);
+        }
+
+        @media (min-width: Theme.get-breakpoint('medium')) {
+            display: none;
+        }
+    }
+
+    .gtp-navbar {
+        width: 270px;
+        height: 100%;
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 52px;
+        padding: 1.2rem 1.7rem 1.2rem 1.2rem;
+
+        @include Elevation.apply(5, $color: #000);
+        @include Color.apply('filled', $color-theme: (
+            'default': (var(--sc-theme--primary), var(--sc-theme--on-primary))
+        ), $query-settings: ('no-elevation'));
+
+        &.visible {
+            display: block;
+        }
+
+        @media (min-width: Theme.get-breakpoint('medium')) {
+            width: 100%;
+            height: auto;
+
+            position: relative;
+            right: 0;
+            top: 0;
+
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+
+            padding: 0;
+
+            box-shadow: none !important;
+            @include Color.apply('filled', $color-theme: (
+                'default': (rgba(0 0 0 / 0), var(--sc-theme--on-primary))
+            ), $query-settings: ('no-elevtation'));
+        }
+
+        .gtp-navbar__item {
+            width: 100%;
+            height: auto;
+            padding: 0.7rem;
+
+            @include Shape.apply($shape-theme: (
+                'shape': rounded,
+                'radius': 0.5rem
+            ));
+            @include Color.apply('filled', $color-theme: (
+                'default': (var(--sc-theme--primary), var(--sc-theme--on-primary)),
+                'hover': (#447b67, var(--sc-theme--on-primary))
+            ), $query-settings: ('no-elevtation'));
+
+            p {
+                font-size: 16px;
+            }
+
+            &.active {
+                font-weight: 700;
+            }
+
+            @media (min-width: Theme.get-breakpoint('medium')) {
+                width: max-content;
+                box-shadow: none;
+                background-color: rgba(0 0 0 / 0);
+                border-color: rgba(0 0 0 / 0);
+
+                &:hover {
+                    background-color: rgba(0 0 0 / 0);
+                    border-color: rgba(0 0 0 / 0);
+                    text-decoration: underline;
+                    text-decoration-color: var(--sc-theme--secondary);
+                }
+
+                p {
+                    width: max-content;
+                }
+            }
+        }
+    }
+
+}

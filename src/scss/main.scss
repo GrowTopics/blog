@@ -1,0 +1,168 @@
+@use '../../node_modules/@growstocks/stack/Core/Theme';
+@use '../../node_modules/@growstocks/stack/Core/Typography';
+
+@use '../../node_modules/@growstocks/stack/Core/Color';
+@use '../../node_modules/@growstocks/stack/Core/Shape';
+
+@use '../../node_modules/@growstocks/stack/Components/SCButton';
+@use '../../node_modules/@growstocks/stack/Components/SCCard';
+@use '../../node_modules/@growstocks/stack/Components/SCHeader';
+@use '../../node_modules/@growstocks/stack/Components/SCTextField';
+
+$module-prefix: 'gtp';
+
+@use 'modules/Article';
+@use 'modules/BlogTemplate' as Blog;
+@use 'modules/NavBar';
+@use 'modules/TitleBar';
+
+:root {
+    @include Theme.config(
+        (
+            'default': #569580,
+            'dark': #203744,
+            'ink': #fff
+        ),
+        (
+            'default': #dc87d2,
+            'light': #e7b5de,
+            'ink': #1d0007
+        ),
+        $surface: #070c10,
+        $on-surface: #fff
+    );
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@include Typography.config(
+    $global-font: 'Inter',
+    $title-font: 'Playfair Display',
+    $title-font-type: serif,
+);
+
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+
+    &::before,
+    &::after {
+        box-sizing: inherit;
+        margin: 0;
+        padding: 0;
+        color: inherit;
+    }
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: var(--sc-theme--surface);
+    color: var(--sc-theme--on-surface);
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-wrap {
+    width: calc(100% - 20px);
+    max-width: 1077px;
+    margin: 0 auto;
+    padding: 70px 0 35px 0;
+}
+
+.page-error {
+    width: calc(100% - 20px);
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+
+    .gtp-error-card {
+        max-width: 510px;
+        padding: 0.7rem 1.2rem;
+
+        @include Color.apply('filled', (
+            'default': (var(--sc-theme--primary-dark), var(--sc-theme--on-primary))
+        ));
+
+        @include Shape.apply((
+            'shape': rounded,
+            'radius': 0.5rem
+        ));
+
+        h1 {
+            margin-bottom: 0.3rem;
+
+            span {
+                font-family: 'Playfair Display', serif;
+                color: var(--sc-theme--secondary)
+            }
+        }
+
+        .gtp-error-card__actions {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 0.7rem;
+
+            & > * + *  {
+                margin-left: 0.7rem;
+            }
+        }
+    }
+}
+
+.surface-text {
+    margin-bottom: 1rem;
+    font-size: Typography.px-to-rem(15px);
+}
+
+@include SCButton.render(
+    $shape-theme: (
+        'shape': rounded,
+    )
+);
+
+@include SCCard.render(
+    $color-theme: (
+        'default': (var(--sc-theme--primary), var(--sc-theme--on-primary))
+    )
+);
+
+@include SCHeader.render(
+    $color-theme: (
+        'default': (var(--sc-theme--primary-dark), var(--sc-theme--on-primary)),
+        'elevation': #000
+    )
+);
+.sc-header {
+    height: 52px !important;
+
+    .sc-header__text {
+        padding: 0.3rem 0.8rem 0.6rem 0.8rem !important;
+
+        h3 {
+            font-size: Typography.px-to-rem(28px);
+        }
+
+        .gtp-pink {
+            color: var(--sc-theme--secondary);
+            font-family: 'Playfair Display', serif;
+        }
+    }
+}
+
+@include Article.render();
+@include Blog.render();
+@include NavBar.render();
+@include TitleBar.render();

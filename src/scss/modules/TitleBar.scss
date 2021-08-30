@@ -1,0 +1,29 @@
+@use '../../../node_modules/@growstocks/stack/Core/Color';
+@use '../../../node_modules/@growstocks/stack/Core/Shape';
+@use '../../../node_modules/@growstocks/stack/Core/Typography';
+@use '../../../node_modules/@growstocks/stack/Core/Elevation';
+@use '../../../node_modules/@growstocks/stack/Core/Tools';
+
+@mixin render() {
+
+    .gtp-title-bar {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        padding: 0.5rem 0;
+
+        & > * + * {
+            margin-left: 0.3rem;
+        }
+
+        .gtp-title-bar__icon {
+            color: var(--sc-theme--secondary);
+            font-size: Typography.px-to-rem(24px);
+        }
+
+        .gtp-title-bar__title {
+            font-size: Typography.px-to-rem(22px);
+        }
+    }
+
+}
