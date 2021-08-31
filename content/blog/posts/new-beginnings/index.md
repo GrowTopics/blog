@@ -1,9 +1,3 @@
----
-title: A Really Really Long Title For This Blog Post
-date: "2015-05-28T22:40:32.169Z"
-description: New beginnings apparently I guess idk lmaoo.
-author: Deez Nuts
----
 
 ![Chinese Salty Egg](salty_egg.jpg)
 
