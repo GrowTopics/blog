@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `GrowTopics`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `The official GrowTopics Blog`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `growtopics`,
@@ -109,13 +109,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `GrowTopics Blog`,
+        short_name: `GrowTopics`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#dc87d2`,
+        theme_color: `#203744`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,
