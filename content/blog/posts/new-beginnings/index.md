@@ -1,8 +1,9 @@
 ---
-title: Test thing
+title: Egg
 date: "2021-08-31T13:26:01.169Z"
-description: The GrowTopics blog is almost here!
+description: Somthing about eggs?
 author: CVXSL
+status: archived
 ---
 
 ![Chinese Salty Egg](salty_egg.jpg)
