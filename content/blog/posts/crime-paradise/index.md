@@ -5,3 +5,4 @@ description: CrimeParadise article coming soon!
 author: CVXSL
 status: archived
 ---
+This topic is currently in the proccess of being written about and will be released along side the rest of the website!
