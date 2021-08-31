@@ -13,7 +13,7 @@ const Index = ({ data }: any) => {
             <TitleBar title="Welcome to GrowTopics!" icon="emoji_people" />
             <div className="surface-text">
                 <p>
-                    GrowTopics is a... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci commodi debitis facilis libero nesciunt nisi officiis perspiciatis qui reiciendis, rem!
+                    Welcome to GrowTopics, we are a small Growtopia company that partners with in-game worlds and relays their helpful information to the world wide web. Take a look at some of our super helpful articles filled to the brim with player provided information.
                 </p>
             </div>
             <TitleBar title="Recent Posts" icon="update" />
