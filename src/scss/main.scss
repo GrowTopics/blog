@@ -122,6 +122,47 @@ a {
     }
 }
 
+.discord-page {
+    width: calc(100% - 20px);
+    height: calc(100vh - (53px * 2));
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+
+    .gtp-discord-card {
+        max-width: 510px;
+        padding: 0.7rem 1.2rem;
+
+        @include Color.apply('filled', (
+                'default': (var(--sc-theme--primary-dark), var(--sc-theme--on-primary))
+        ));
+
+        @include Shape.apply((
+                'shape': rounded,
+                'radius': 0.5rem
+        ));
+
+        h1 {
+            margin-bottom: 0.3rem;
+
+            span {
+                font-family: 'Playfair Display', serif;
+                color: var(--sc-theme--secondary)
+            }
+        }
+
+        .gtp-discord-card__actions {
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 0.7rem;
+
+            & > * + *  {
+                margin-left: 0.7rem;
+            }
+        }
+    }
+}
+
 .surface-text {
     margin-bottom: 1rem;
     font-size: Typography.px-to-rem(15px);

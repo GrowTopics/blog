@@ -40,11 +40,6 @@ const RecentPosts = ({ data }: any) => {
             {posts.map((post: { frontmatter: { title: any; date: boolean; author: any | React.ReactChild | React.ReactFragment | React.ReactPortal | null | undefined; description: any }; fields: { slug: React.Key | null | undefined }; excerpt: any }) => {
                 const title = post.frontmatter.title || post.fields.slug
 
-                // slug = post.fields.slug
-                // title = title
-                // preview = post.frontmatter.description || post.excerpt
-                // KEY=slug!!!!
-
                 return (
                     <>
                         <Article
@@ -58,6 +53,7 @@ const RecentPosts = ({ data }: any) => {
                 );
 
             })}
+
         </section>
     )
 }
@@ -66,11 +62,6 @@ export default Index
 
 export const pageQuery = graphql`
     query {
-        site {
-            siteMetadata {
-                title
-            }
-        }
         allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
             nodes {
                 excerpt

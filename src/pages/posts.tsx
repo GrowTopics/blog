@@ -6,7 +6,6 @@ import DefaultLayout from "./layouts/DefaultLayout";
 import Article from "../components/Article";
 
 const Posts = ({data, location}: any) => {
-    const siteTitle = data.site.siteMetadata?.title || `Title`
     const posts = data.allMarkdownRemark.nodes
 
     if (posts.length === 0) {
@@ -34,7 +33,6 @@ const Posts = ({data, location}: any) => {
                             <Article
                                 key={ post.fields.slug }
                                 title={ title }
-                                // preview={ post.frontmatter.description || post.excerpt }
                                 slug={ post.fields.slug }
                                 author={ post.frontmatter.author }
                             />
@@ -51,11 +49,6 @@ export default Posts
 
 export const pageQuery = graphql`
     query {
-        site {
-            siteMetadata {
-                title
-            }
-        }
         allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
             nodes {
                 excerpt

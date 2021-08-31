@@ -1,15 +1,12 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../../components/bio"
 import DefaultLayout from "./DefaultLayout";
 import SEO from "../../components/Seo"
-import Banner from "../../components/Banner";
 import Button from "../../components/Button";
 
-const BlogPostTemplate = ({data, location}: any) => {
+const BlogPostTemplate = ({data}: any) => {
     const post = data.markdownRemark
-    const siteTitle = data.site.siteMetadata?.title || `Title`
     const {previous, next} = data
 
     return (
@@ -28,7 +25,7 @@ const BlogPostTemplate = ({data, location}: any) => {
                     <p>{post.frontmatter.date}</p>
                 </header>
                 <section
-                    dangerouslySetInnerHTML={{__html: post.html}}
+                    dangerouslySetInnerHTML={{ __html: post.html }}
                     itemProp="articleBody"
                 />
             </article>
@@ -66,15 +63,10 @@ export default BlogPostTemplate
 
 export const pageQuery = graphql`
     query BlogPostBySlug(
-        $id: String!
+        $id: String
         $previousPostId: String
         $nextPostId: String
     ) {
-        site {
-            siteMetadata {
-                title
-            }
-        }
         markdownRemark(id: { eq: $id }) {
             id
             excerpt(pruneLength: 160)

@@ -2,12 +2,9 @@ import * as React from "react"
 import { graphql, Link } from "gatsby"
 
 import SEO from "../components/Seo"
-import DefaultLayout from "./layouts/DefaultLayout";
 import Button from "../components/Button";
 
-const NotFoundPage = ({ data, location }: any) => {
-  const siteTitle = data.site.siteMetadata.title
-
+const NotFoundPage = () => {
   return (
       <>
           <SEO title="404" />
@@ -31,13 +28,3 @@ const NotFoundPage = ({ data, location }: any) => {
 }
 
 export default NotFoundPage
-
-export const pageQuery = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
