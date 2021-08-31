@@ -1,3 +1,9 @@
+---
+title: Test thing
+date: "2021-08-31T13:27:01.169Z"
+description: The GrowTopics blog is almost here!
+author: CVXSL
+---
 
 ![Chinese Salty Egg](salty_egg.jpg)
 
