@@ -3,7 +3,7 @@ title: Crime Paradise
 date: "2021-09-01T11:19:00.0Z"
 description: Learn how to become a better crime fighter!
 author: CVXSL
-status: archived
+status: open
 ---
 
 - This article was sponsored by **CRIMEPARADISE**, make sure to check our their world.
