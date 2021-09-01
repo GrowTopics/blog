@@ -34,6 +34,8 @@ status: archived
 
 ## Crime Fighting Guides
 
+These are all of the currently avaliable crime fighting guides!
+
 #### The Firebug [EASY]
 - He uses all Fire cards.
 - You are recommended to bring Puddle and Ice Shards, and 3 other random cards.
@@ -50,7 +52,6 @@ status: archived
 - He uses all lightning cards.
 - You are recommended to bring Enrage and Crush, along with 3 other random cards.
 - Keep using Enrage and Enrage until you defeat him.
----
 #### Generic Thug #17 [HARD]
 - He uses 2 Super Strength, Enrage, Puddle and Frozen Mirror.
 - Bring Incinerate, Flame On!, Thunderstorm, Megawatt Pulse and Super Speed.
@@ -78,7 +79,6 @@ status: archived
   - If the next card is Regeneration, play Liquify, Megawatt Pulse, Frost Breath then Super Speed.
   - If the next card is Thunderstorm, play Regeneration, Frost Breath, Megawatt Pulse then Liquify.
 - Repeat until he is defeated.
----
 #### Ms. Terry [DEADLY]
 - She uses random cards.
 - You should bring Liquify, Super Speed, Frost Breath, Frozen Mirror and Megawatt Pulse.
@@ -165,54 +165,51 @@ Earned for defeating Pine-Fresh.
 
 These are the main 4 types of superpower cards!
 
-### Super Strength
+### Super Strength [MUSCLE]
 Inflict 1 damage.
-### Super Speed
+### Super Speed [MUSCLE]
 Inflict 1 damage, and on your next turn, you can see which card you opponent will choose before you choose yours. 
 > *[ Takes 2 turns to recharge. ]*
-### Enrage
+### Enrage [MUSCLE]
 Block 1 damage, this turn, and your next attack that hits will do +1 damage.
-### Crush
+### Crush [MUSCLE]
 If your opponent uses a lighting card this turn, they take 3 damage, if they use other cards, this card has no effect.
-### Regeneration
+### Regeneration [MUSCLE]
 Recover 1 life this turn and the next turn.
----
-### Shocking Fist
+### Shocking Fist [LIGHTNING]
 Inflict 1 damage.
-### Thunderstorm
+### Thunderstorm [LIGHTNING]
 No damage now, but for the next 2 turns, your opponent takes 1 damage each turn.
 > *[ The storm ends if you are hit by a muscle card. ]*
-### Overcharge
+### Overcharge [LIGHTNING]
 Charge up your lightning card to do +1 damage permanently.
 > *[ Getting hit by a muscle card removed this effect. ]*
-### Megawatt Pulse
+### Megawatt Pulse [LIGHTNING]
 Does 2 damage.
 > *[ Take 2 turns to recharge. ]*
-### Resuscitate
+### Resuscitate [LIGHTNING]
 If an attack can kill you in the next 3 turns, you recover with 1 health.
----
-### Ice Shards
+### Ice Shards [ICE]
 Inflict 1 damage.
-### Frost Breath
+### Frost Breath [ICE]
 Freeze your opponent, so they can't use any cards except fire cards next turn.
-### Ice Barrier
+### Ice Barrier [ICE]
 Protects you from the next hit you would take, including this turn.
 > *[ Lighting card pierces it. ]*
-### Puddle
+### Puddle [ICE]
 For the next 3 turns, your opponent takes 1 damage if they use lightning cards.
-### Frozen Mirror
+### Frozen Mirror [ICE]
 Inflict 1 damage, if the opponent uses fire cards, their card isn't countered, it's reflected back at them!
----
-### Heat Vision
+### Heat Vision [FIRE]
 Inflict 1 damage.
-### Incinerate
+### Incinerate [FIRE]
 Inflict 1 damage, but if the opponent uses a Muscle card, it inflicts 2 damage.
-### Flame On!
+### Flame On! [FIRE]
 Ignite yourself, healing 1 damage, and your opponent takes 1 damage if they you in the next 3 turns.
-### Liquify
+### Liquify [FIRE]
 Inflict 1 damage and melts the card your opponent plays, removing it from play permanently.
 > *[ If you play another Liquify card, the first one returns. ]*
-### Overheat
+### Overheat [FIRE]
 Your fire cards are not countered by Ice on your next turn, and they do 1 damage.
 
 # More can be found in the world CRIMEPARADISE!
