@@ -5,6 +5,4 @@ description: Learn more about update 1.0.0!
 author: CVXSL
 status: open
 ---
-# Update 1.0.0
-
 *Update 1.0.0 coming soon!*
