@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `GrowTopics`,
-    description: `The official GrowTopics Blog`,
+    title: `Static`,
+    description: `The official Static Blog`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `growtopics`,
