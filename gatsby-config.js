@@ -109,8 +109,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `GrowTopics Blog`,
-        short_name: `GrowTopics`,
+        name: `Static Bot`,
+        short_name: `Static`,
         start_url: `/`,
         background_color: `#dc87d2`,
         theme_color: `#203744`,
