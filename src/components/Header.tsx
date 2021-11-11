@@ -6,7 +6,7 @@ const Header = () => (
     <header className="sc-header">
         <div className="sc-header__wrap">
             <Link to="/" className="sc-header__text">
-                <h3><span className="gtp-pink">Grow</span>Topics</h3>
+                <h3><span className="gtp-pink">Static</span> Bot</h3>
             </Link>
             <NavBar />
         </div>
