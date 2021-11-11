@@ -10,10 +10,10 @@ const Index = ({ data }: any) => {
     return (
         <DefaultLayout>
             <Seo title="Home"/>
-            <TitleBar title="Welcome to GrowTopics!" icon="emoji_people" />
+            <TitleBar title="Welcome to Static!" icon="emoji_people" />
             <div className="surface-text">
                 <p>
-                    Welcome to GrowTopics, we are a small Growtopia company that partners with in-game worlds and relays their helpful information to the world wide web. Take a look at some of our super helpful articles filled to the brim with player provided information.
+                    Welcome to the Home Page of Static, a but filled to the brim with all types of commands and features. Below is our blog for all information and updates for the bot.
                 </p>
             </div>
             <TitleBar title="Recent Posts" icon="update" />
