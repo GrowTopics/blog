@@ -1,6 +1,6 @@
 ---
 title: Beta Testing
-date: "2021-11-11T17:19:04.0Z"
+date: "2021-11-12T15:22:00.0Z"
 description: Learn more about our first beta release and how to join it!
 author: CVXSL
 status: open
