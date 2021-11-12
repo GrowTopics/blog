@@ -5,7 +5,7 @@ description: Learn more about our first beta release and how to join it!
 author: CVXSL
 status: open
 ---
-We have released our very first ristricted beta.
+We have released our very first restricted beta.
 
 ## Joining the Beta
 
@@ -14,7 +14,7 @@ You might be wondering how to join the beta. If your server fits the Beta requir
 ##### Requirements
 
 - Your server must have at least 20 active members in it.
-- You or one of your administrators must be in our official server to relay information about the bots proformance to us. (Our server can be found [here](https://discord.gg/2NaDrfV6MK)).
+- You or one of your administrators must be in our official server to relay information about the bots performace to us. (Our server can be found [here](https://discord.gg/2NaDrfV6MK)).
 - You or one of your administrators must be able to answer questionnaires that may take place during the beta.
 - You must understand that you can be removed from the beta at any point for not participating in any instructed measures.
 
@@ -24,10 +24,10 @@ If you fit under all of the requirements, feel free to sign up [here](https://fo
 
 0/10 Servers - Beta Open
 
-## Everything Included in the Beta
+### Everything Included in the Beta
 
-All beta commands and features will be included in the beta testing phase.
+*This list is coming soon!*
 
-## Current Testers
+### Current Testers
 
 *no current testers*
