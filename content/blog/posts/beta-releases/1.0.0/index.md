@@ -1,5 +1,3 @@
-## 1.0.0:
-
 #### H&SU (1)
 
 - Added the `=tt <tone>` command
