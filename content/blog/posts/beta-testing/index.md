@@ -26,7 +26,7 @@ If you fit under all of the requirements, feel free to sign up [here](https://fo
 
 ### Everything Included in the Beta
 
-*This list is coming soon!*
+- [Beta 1.0.0](https://www.growtopics.xyz/posts/beta-1.0.0/)
 
 ### Current Testers
 
