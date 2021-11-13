@@ -9,11 +9,11 @@ Our first official Beta Release brings a few things to the bot and they are all 
 
 ## 1.0.0:
 
-##### H&SU (1)
+#### H&SU (1)
 
 - Added the `=tt <tone>` command
-  - This command is currently only availiable in the H&SU private server.
-  - Here are all of the tone tags currently avaliable to search:
+  - This command is currently only available in the H&SU private server.
+  - Here are all of the tone tags currently available to search:
     - /j = joking
     - /hj = half joking
     - /s or /sarc = sarcastic / sarcasm
@@ -37,10 +37,16 @@ Our first official Beta Release brings a few things to the bot and they are all 
     - /nc or /neg = negative connotation
     - /t = teasing
 
-##### Status (3)
+#### Status (3)
 
 - Added the `=status` command
   - This command gives you the current status of each shard.
   - This command also gives you the link to the official status page that goes more in depth information on outages and maintenances.
 
-##### 
+#### Random Response (4)
+
+- *coming soon!*
+
+#### Statistics (5)
+
+- *coming soon!*
