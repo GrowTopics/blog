@@ -1,3 +1,11 @@
+---
+title: Beta 1.0.0
+date: "2021-11-12T21:26:00.0Z"
+description: Learn more about Beta 1.0.0!
+author: CVXSL
+status: open
+---
+
 #### H&SU (1)
 
 - Added the `=tt <tone>` command
