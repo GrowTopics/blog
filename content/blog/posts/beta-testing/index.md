@@ -1,6 +1,6 @@
 ---
 title: Beta Testing
-date: "2021-11-12T15:22:00.0Z"
+date: "2021-11-12T21:29:00.0Z"
 description: Learn more about our first beta release and how to join it!
 author: CVXSL
 status: open
@@ -26,7 +26,7 @@ If you fit under all of the requirements, feel free to sign up [here](https://fo
 
 ### Everything Included in the Beta
 
-- [Beta 1.0.0](https://www.growtopics.xyz/posts/beta-1.0.0/)
+- [Beta Releases](https://www.growtopics.xyz/posts/beta-releases/)
 
 ### Current Testers
 
